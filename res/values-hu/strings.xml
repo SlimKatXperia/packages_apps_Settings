@@ -2049,4 +2049,6 @@
     <!-- Setting checkbox summary for displaying USB debugging notification -->
     <string name="adb_notify">USB hibakeresés értesítés</string>
     <string name="adb_notify_summary">Értesítés kijelzése USB hibakeresés csatlakozásánál</string>
+    <string name="otaupdater_settings_title">OTA frissítések</string>
+    <string name="otaupdater_settings_summary">Elérhető frissítések keresése, megtekintése, vagy telepítése</string>
 </resources>

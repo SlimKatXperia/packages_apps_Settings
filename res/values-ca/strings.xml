@@ -2043,4 +2043,6 @@
     <string name="user_image_take_photo" msgid="1280274310152803669">"Fes una foto"</string>
     <string name="user_image_choose_photo" msgid="7940990613897477057">"Selecciona una foto de la galeria"</string>
     <string name="regulatory_info_text" msgid="5623087902354026557"></string>
+    <string name="otaupdater_settings_title">Actualitzacions OTA</string>
+    <string name="otaupdater_settings_summary">Verifica, mostra o instal·la les actualitzacions disponibles</string>
 </resources>
