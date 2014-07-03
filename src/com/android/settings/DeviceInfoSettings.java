@@ -72,7 +72,6 @@ public class DeviceInfoSettings extends RestrictedSettingsFragment {
     private static final String KEY_SLIM_VERSION = "slim_version";
     private static final String KEY_DEVICE_CPU = "device_cpu";
     private static final String KEY_DEVICE_MEMORY = "device_memory";
-    private static final String KEY_OTA_UPDATER = "ota_updater";
 
     static final int TAPS_TO_BE_A_DEVELOPER = 7;
 
@@ -112,14 +111,6 @@ public class DeviceInfoSettings extends RestrictedSettingsFragment {
             String status = getResources().getString(R.string.selinux_status_permissive);
             setStringSummary(KEY_SELINUX_STATUS, status);
         }
-
-
-         // Only the owner should see the Updater settings, if it exists
-         if (UserHandle.myUserId() == UserHandle.USER_OWNER) {
-             removePreferenceIfPackageNotInstalled(findPreference(KEY_OTA_UPDATER));
-         } else {
-             getPreferenceScreen().removePreference(findPreference(KEY_OTA_UPDATER));
-         }
 
         // Remove selinux information if property is not present
         removePreferenceIfPropertyMissing(getPreferenceScreen(), KEY_SELINUX_STATUS,
