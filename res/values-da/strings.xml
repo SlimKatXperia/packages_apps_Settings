@@ -2043,6 +2043,4 @@
     <string name="user_image_take_photo" msgid="1280274310152803669">"Tag billede"</string>
     <string name="user_image_choose_photo" msgid="7940990613897477057">"Vælg billede fra Galleri"</string>
     <string name="regulatory_info_text" msgid="5623087902354026557"></string>
-    <string name="otaupdater_settings_title">OTA-opdateringer</string>
-    <string name="otaupdater_settings_summary">Tjek for, se eller installér tilgængelige opdateringer</string>
 </resources>

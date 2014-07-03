@@ -2060,6 +2060,4 @@
     <!-- Setting checkbox summary for displaying USB debugging notification -->
     <string name="adb_notify">Уведомление об отладке по USB</string>
     <string name="adb_notify_summary">Показывать уведомление о включённом режиме отладки по USB</string>
-    <string name="otaupdater_settings_title">Обновления системы</string>
-    <string name="otaupdater_settings_summary">Проверка и установка доступных обновлений</string>
 </resources>

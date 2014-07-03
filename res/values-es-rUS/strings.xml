@@ -2043,6 +2043,4 @@
     <string name="user_image_take_photo" msgid="1280274310152803669">"Tomar una foto"</string>
     <string name="user_image_choose_photo" msgid="7940990613897477057">"Elegir una foto de la galería"</string>
     <string name="regulatory_info_text" msgid="5623087902354026557"></string>
-    <string name="otaupdater_settings_title">Anovamientos OTA</string>
-    <string name="otaupdater_settings_summary">Comprobar, ver ya instalar anovamientos disponibles</string>
 </resources>

@@ -2045,6 +2045,4 @@
     <string name="regulatory_info_text" msgid="5623087902354026557"></string>
     <string name="adb_notify">Notificación de Debug USB</string>
     <string name="adb_notify_summary">Muestra una notificación cuando se conecta el dispositivo a un USB</string>
-    <string name="otaupdater_settings_title">Actualizaciones OTA</string>
-    <string name="otaupdater_settings_summary">Comprobar, ver e instalar actualizaciones disponibles</string>
 </resources>
